@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "lustra";
+  src: url("/font/Lustramd.otf");
+}
+#mainDiv {
+  width: 400px;
+  height: 350px;
+  box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 150px;
+  box-sizing: border-box;
+  padding: 30px;
+  margin: 100px auto;
+  border-radius: 40px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#mainDiv1 {
+  width: 400px;
+  height: 280px;
+  box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 150px;
+  box-sizing: border-box;
+  padding: 30px;
+  margin: 100px auto;
+  border-radius: 40px;
 }
+
+.showBox {
+  width: 100%;
+}
+
+.inputbox1 {
+  display: block;
+  min-width: 200px;
+  margin-left: 0px;
+  margin-top: 10px;
+  height: 30px;
+  box-sizing: border-box;
+  border-radius: 11px;
+  border-style: solid;
+  width: 333px;
+}
+
+.inputBox2 {
+  display: block;
+  min-width: 200px;
+  margin-left: 0px;
+  margin-top: 10px;
+  height: 30px;
+  border-radius: 11px;
+  border-style: solid;
+  width: 333px;
+}
+
+.xxx {
+  height: 200px;
+}
+
+.description {
+  width: 100%;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+#signuplink {
+  font-family: Arial;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  display: block;
+}
+
+.showBox {
+  font-family: Arial;
+  text-align: center;
+  font-size: 30px;
+  margin: auto auto;
+}
+.showBox #title {
+  font-size: 20px;
+}
+
+.showBox2 {
+  margin-top: 100px;
+}
+
+.AutoLogin {
+  background: #003757;
+  color: white;
+  display: inline-block;
+  padding: 0px;
+  margin: 10px 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 333px;
+}
+.AutoLogin p {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0px;
+}
+.AutoLogin div {
+  display: inline-block;
+  padding: 4px 10px;
+  margin-left: 5px;
+  color: #003757;
+  background: #e4e4e4;
+  border-radius: 2px;
+  font-family: lustra;
+}
+
+/*# sourceMappingURL=index.css.map */

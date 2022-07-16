@@ -115,8 +115,8 @@ const Home = (props) => {
     }
 
     const AutoLogin=()=>{
-        console.log("https://passecurity.ir/autologin/pastest.iran.liara.run/")
-        window.open("https://passecurity.ir/autologin/pastest.iran.liara.run/");
+        console.log("http://passecurity.ir/autologin/pastest.iran.liara.run/")
+        window.open("http://passecurity.ir/autologin/pastest.iran.liara.run/");
     }
 
     return (
